@@ -39,7 +39,7 @@ const ChangePassword = () => {
         <div className="col-md-6 offset-md-3">
           <div className="card">
             <div className="card-header">
-              <h2 className="text-center">Login Form</h2>
+              <h2 className="text-center">Password Change</h2>
             </div>
             <div className="card-body">
               <form className="row mb-3">
