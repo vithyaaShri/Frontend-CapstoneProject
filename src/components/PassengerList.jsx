@@ -24,7 +24,7 @@ const PassengerList = () => {
   };
   return (
     <div className="container">
-      <h2 className="text-center ">List of Buses</h2>
+      <h2 className="text-center ">List of Passengers</h2>
       <div>
         <table className="table table-bordered table-striped">
           <thead>
