@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { registerAPICall } from "../service/AuthService";
 import { useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 
 //It is User Registration form to register new User
 const RegistredComponent = () => {
@@ -33,7 +34,7 @@ const RegistredComponent = () => {
       try {
         const registerobj = { name, username, password, email };
         const response = await registerAPICall(registerobj);
-        alert(response.data);
+        Swal.fire("User Registered Succesfully")
         navigate("/login");
         console.log(response);
       } catch (error) {
