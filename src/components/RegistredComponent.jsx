@@ -69,7 +69,7 @@ const RegistredComponent = () => {
                         placeholder="Enter Name"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
-                        required
+                       
                       ></input>
                     </div>
                   </div>
@@ -86,7 +86,7 @@ const RegistredComponent = () => {
                         placeholder="Enter Username"
                         value={username}
                         onChange={(e) => setUsername(e.target.value)}
-                        required
+                        
                       ></input>
                     </div>
                   </div>
@@ -103,7 +103,7 @@ const RegistredComponent = () => {
                         placeholder="Enter Password"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
-                        required
+                        
                       ></input>
                     </div>
                   </div>
@@ -120,14 +120,14 @@ const RegistredComponent = () => {
                         placeholder="Enter Email"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
-                        required
+                        
                       ></input>
                     </div>
                   </div>
                   <div className="form-group mb-3 col-md-9 d-flex justify-content-center">
                     <button
                       className="btn btn-primary"
-                      onSubmit={(e) => handleRegistrationForm(e)}
+                      onClick={(e) => handleRegistrationForm(e)}
                     >
                       Submit
                     </button>
