@@ -78,7 +78,7 @@ const AddBus = () => {
     });
     const response = await addBus(bus);
     console.log(response);
-    navigate("/addbus");
+     navigate("/admin");
     }
   };
   return (
